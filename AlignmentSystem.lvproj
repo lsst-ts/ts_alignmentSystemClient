@@ -30,11 +30,11 @@
 			<Item Name="TCPSettings.lvclass" Type="LVClass" URL="../ts_labview_tcp/TCPSettings/TCPSettings.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="ack.ctl" Type="VI" URL="../Typedefs/ack.ctl"/>
 			<Item Name="Commands.ctl" Type="VI" URL="../Typedefs/Commands.ctl"/>
-			<Item Name="data.ctl" Type="VI" URL="../Typedefs/data.ctl"/>
 			<Item Name="Status.ctl" Type="VI" URL="../Typedefs/Status.ctl"/>
 			<Item Name="Subsystems.ctl" Type="VI" URL="../AlCS/Subsystems.ctl"/>
+			<Item Name="ack.ctl" Type="VI" URL="../Typedefs/ack.ctl"/>
+			<Item Name="data.ctl" Type="VI" URL="../Typedefs/data.ctl"/>
 		</Item>
 		<Item Name="View" Type="Folder">
 			<Item Name="View.lvclass" Type="LVClass" URL="../View/View.lvclass"/>
@@ -69,6 +69,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{ABE7D54A-0934-4185-9E39-C7C2520007BB}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Spac.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/aanania/Desktop/Spac/Spac/Spac.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -77,15 +78,14 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/C/Users/aanania/Desktop/Spac/Spac/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Iconsmind-Outline-Laser.ico</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{B27794F2-3B49-4651-95FA-00993F4025CB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">LSST</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SPAC</Property>
 				<Property Name="TgtF_internalName" Type="Str">SPAC</Property>
