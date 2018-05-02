@@ -40,22 +40,17 @@
 			<Item Name="View.lvclass" Type="LVClass" URL="../View/View.lvclass"/>
 		</Item>
 		<Item Name="Iconsmind-Outline-Laser.ico" Type="Document" URL="../Iconsmind-Outline-Laser.ico"/>
-		<Item Name="main.vi" Type="VI" URL="../ts_labview_tcp/tcpTypedefs/main.vi"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AckType.ctl" Type="VI" URL="../../ts_monochromator_windows/Typedefs/AckType.ctl"/>
-			<Item Name="DeviceStatus.ctl" Type="VI" URL="../../ts_monochromator_windows/Typedefs/DeviceStatus.ctl"/>
 			<Item Name="getStatus.vi" Type="VI" URL="../AlCS/getStatus.vi"/>
-			<Item Name="GratingType.ctl" Type="VI" URL="../../ts_monochromator_windows/Typedefs/GratingType.ctl"/>
-			<Item Name="publishers.ctl" Type="VI" URL="../../ts_monochromator_windows/Typedefs/publishers.ctl"/>
-			<Item Name="slitWidth.ctl" Type="VI" URL="../../ts_monochromator_windows/Typedefs/slitWidth.ctl"/>
-			<Item Name="wavelength.ctl" Type="VI" URL="../../ts_monochromator_windows/Typedefs/wavelength.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="SPAC" Type="EXE">
